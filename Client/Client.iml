@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_X">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -9,8 +9,26 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.12.2" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.12.2" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.12.2" level="project" />
+    <orderEntry type="library" name="Maven: org.bitbucket.cowwoc:ToJsonString:1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.bitbucket.cowwoc:preconditions:1.12" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:18.0" level="project" />
+    <orderEntry type="library" name="Maven: org.testng:testng:6.8.8" level="project" />
+    <orderEntry type="library" name="Maven: org.beanshell:bsh:2.0b4" level="project" />
+    <orderEntry type="library" name="Maven: com.beust:jcommander:1.27" level="project" />
+    <orderEntry type="library" name="Maven: ph.com.autodeal:dynamiclibrary:0.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.8.1" level="project" />
+    <orderEntry type="library" name="Maven: com.android.support:appcompat-v7:25.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.android.support:design:25.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:jsonata:1.8.6" level="project" />
+    <orderEntry type="library" name="Maven: javax.json:javax.json-api:1.1.4" level="project" />
+    <orderEntry type="library" name="Maven: org.ops4j.pax.url:pax-url-link:2.6.12" level="project" />
+    <orderEntry type="library" name="Maven: org.ops4j.pax.url:pax-url-commons:2.6.12" level="project" />
+    <orderEntry type="library" name="Maven: org.ops4j.pax.swissbox:pax-swissbox-property:1.8.5" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.32" level="project" />
+    <orderEntry type="library" name="Maven: org.ops4j.base:ops4j-base-lang:1.5.1" level="project" />
+    <orderEntry type="library" name="Maven: org.ops4j.base:ops4j-base-util-property:1.5.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.15.0-rc2" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.15.0-rc2" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.15.0-rc2" level="project" />
   </component>
 </module>
