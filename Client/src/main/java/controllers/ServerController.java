@@ -15,7 +15,7 @@ public class ServerController {
 
     private ServerController svr = new ServerController();
 
-    private ServerController() throws MalformedURLException {}
+    public ServerController() throws MalformedURLException {}
 
     public ServerController shared() {
         return svr;
