@@ -2,6 +2,8 @@ package youareell;
 
 import controllers.*;
 
+import java.net.MalformedURLException;
+
 public class YouAreEll {
 
     TransactionController tt;
@@ -14,7 +16,7 @@ public class YouAreEll {
 
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws MalformedURLException {
         // hmm: is this Dependency Injection?
         YouAreEll urlhandler = new YouAreEll(
             new TransactionController(

@@ -19,12 +19,13 @@ import java.io.IOException;
 public class ServerController {
     URL urlID = new URL("http://zipcode.rocks:8085/ids");
 
-
     private String rootURL = "http://zipcode.rocks:8085";
+
+
 
     private ServerController svr = new ServerController();
 
-    private ServerController() throws MalformedURLException {}
+    public ServerController() throws MalformedURLException {}
 
     public ServerController shared() {
         return svr;
