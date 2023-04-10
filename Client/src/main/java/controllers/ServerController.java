@@ -10,8 +10,9 @@ import java.net.URL;
 public class ServerController {
     URL urlID = new URL("http://zipcode.rocks:8085/ids");
 
-
     private String rootURL = "http://zipcode.rocks:8085";
+
+
 
     private ServerController svr = new ServerController();
 
