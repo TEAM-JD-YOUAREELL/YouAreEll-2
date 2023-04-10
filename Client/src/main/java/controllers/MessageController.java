@@ -1,5 +1,6 @@
 package controllers;
 
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -54,9 +55,17 @@ public class MessageController {
         return messagesId;
     }
     public Message getMessageForSequence(String seq) {
-        return null;
+        try {
+            messageSeq = mapper.readValue(seq, Message.class);
+        }catch (IOException e){
+            throw new RuntimeException();
+        }
+        return messageSeq;
     }
-    public ArrayList<Message> getMessagesFromFriend(Id myId, Id friendId) {
+    public List<Message> getMessagesFromFriend(Id myId, Id friendId) throws Exception {
+        messages = new MessageController().getMessages();
+
+
         return null;
     }
 
