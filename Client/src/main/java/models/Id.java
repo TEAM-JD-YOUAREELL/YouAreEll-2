@@ -1,18 +1,41 @@
 package models;
 
-/* 
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+/*
  * POJO for an Id object
  */
 public class Id {
-    private String uid = "";
-    private String name = "";
-    private String github = "";
 
-    public Id (String name, String githubId) {}
 
-    public String getUid() {
-        return uid;
+    private String userId;
+    private String name;
+    private String github;
+    @JsonCreator
+    public Id(
+            @JsonProperty("userid") String userId,
+            @JsonProperty("name") String name,
+            @JsonProperty("github") String github) {
+        this.name = name;
+        this.github = github;
+        this.userId = userId;
+
     }
+
+
+    public Id(String name, String githubId) {
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
+
+
 
 //    public void setUid(String uid) {
 //        this.uid = uid;

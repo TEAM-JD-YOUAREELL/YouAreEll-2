@@ -1,19 +1,10 @@
 //import spiffyUrlManipulator
 package controllers;
 import models.Id;
-import views.Connection;
 
 import javax.json.JsonString;
-import java.io.IOException;
-import java.net.ConnectException;
-import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
-import java.net.http.HttpClient;
-import java.io.IOException;
-
 
 
 public class ServerController {
@@ -37,7 +28,6 @@ public class ServerController {
         // send the server a get with url
         //git from http://zipcode.rocks:8085/ids
         // return json from server
-        Connection con = new Connection(urlID);
 
         return null;
     }
