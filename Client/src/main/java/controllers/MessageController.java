@@ -64,13 +64,10 @@ public class MessageController {
     }
     public List<Message> getMessagesFromFriend(Id myId, Id friendId) throws Exception {
         messages = new MessageController().getMessages();
-
-
         return null;
     }
 
-    public Message postMessage(Id myId, Id toId, Message msg) {
-        return null;
+    public Message postMessage(Id myId, Message msg) {
+
     }
- 
 }

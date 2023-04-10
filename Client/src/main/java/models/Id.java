@@ -9,7 +9,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class Id {
 
 
-    private String userId;
+    private String uid;
     private String name;
     private String github;
     @JsonCreator
@@ -19,7 +19,7 @@ public class Id {
             @JsonProperty("github") String github) {
         this.name = name;
         this.github = github;
-        this.userId = userId;
+        this.uid = userId;
 
     }
 
@@ -27,12 +27,12 @@ public class Id {
     public Id(String name, String githubId) {
     }
 
-    public String getUserId() {
-        return userId;
+    public String getUid() {
+        return uid;
     }
 
     public void setUserId(String userId) {
-        this.userId = userId;
+        this.uid = userId;
     }
 
 
